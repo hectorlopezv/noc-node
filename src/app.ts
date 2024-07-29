@@ -4,6 +4,6 @@ import {Server} from "./presentation/server";
 main();
 })();
 
-function main(){
+async function main(){
     Server.start();
 }
