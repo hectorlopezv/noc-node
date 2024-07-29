@@ -38,7 +38,7 @@ const config = {
 // Opcional - The paths to modules that run some
 // code to configure or set up the testing
 // environment before each test
-// setupFiles: ['dotenv/config'],
+setupFiles: ['<rootDir>/setupTests.ts'],
 
   // A list of reporter names that Jest uses when writing coverage reports
   // coverageReporters: [
